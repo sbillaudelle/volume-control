@@ -3,6 +3,9 @@
     <component name="Thinkpad T400 Volume Control" id=".VolumeControl" version="0.1" type=".Module">
         <license title="GPL" version="3+" />
 
+        <use-feature id="org.cream.config" />
+        <use-feature id="org.cream.hotkeys" />
+
         <author name="Sebastian Billaudelle" mail="stein@cream-project.org" type="developer" />
     </component>
 </manifest>

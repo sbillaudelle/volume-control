@@ -1,0 +1,6 @@
+<configuration>
+    <hotkey_raise action="raise-volume" type="hotkey" label="Hotkey for raising the volume">XF86AudioRaiseVolume</hotkey_raise>
+    <hotkey_lower action="lower-volume" type="hotkey" label="Hotkey for lowering the volume">XF86AudioLowerVolume</hotkey_lower>
+    <hotkey_mute action="mute-volume" type="hotkey" label="Hotkey for muting the default sound card">XF86AudioMute</hotkey_mute>
+    <hotkey_change action="change-sink" type="hotkey" label="Hotkey for changing the default audio sink">&lt;Ctrl&gt;XF86AudioMute</hotkey_change>
+</configuration>
