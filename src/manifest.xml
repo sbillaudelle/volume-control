@@ -1,6 +1,7 @@
 <?xml version="1.0" ?>
 <manifest namespace="org.sbillaudelle" version="0.0.5">
-    <component name="Thinkpad T400 Volume Control" id=".VolumeControl" version="0.1" type=".Module">
+    <component name="Volume Control Service" id=".VolumeControlService" version="0.1.1" type=".Module" exec="volume-control-service">
+        <description lang="en">A service for controlling your pulse audio sink's volume using your hardware keys.</description>
         <license title="GPL" version="3+" />
 
         <use-feature id="org.cream.config" />
